@@ -1,0 +1,181 @@
+body {
+    background-color: #FCFDE0;
+}
+.header-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    background-color: #FCFDE0;
+    background-image: url(../Recursos/Fundo1.png);
+    background-size: 500px 450px;
+
+}
+.header-container img {
+    width: 130px;
+    height: 100px;
+}
+.header-container a {
+    text-decoration: none;
+    font-family: Coiny;
+    color: #EDBA45;
+    font-size: 20px;
+}
+.header-container a:hover {
+    text-decoration: underline 3px #00BF63 ;
+
+}
+.main-container1 {
+    padding-left: 50px;
+    padding-top: 70px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Recursos/Polly.png);
+    border-bottom: 5px dotted #ffffff;
+    border-bottom-left-radius: 35%;
+    
+}
+.main-container1 section {
+    width: 700px;
+    height: 400px;
+}
+.main-container1 section h1 {
+    font-family: Coiny;
+    font-size: 60px;
+    padding-top: 10px;
+    color: white;
+    text-shadow: 4px 4px #00BF63;
+    
+}
+.main-container1 section p {
+    font-family: Contrail One;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: white;
+}
+.main-container1 section button {
+    font-family: Coiny;
+    background-color: #EDBA45;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    
+}
+.main-container1 section button:hover {
+    background-color: #DA828F;
+    cursor: pointer;
+    transition: 1s;
+    transform: translateX(10px) scale(1.2);
+
+}
+.main-container2 {
+    padding-top: 40px;
+    height: 80vh;
+    
+}
+.main-container2 section h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Coiny;
+    color: white;
+    text-shadow: 4px 4px #00BF63;
+}
+.main-container2-blocos {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 60px;
+    text-align: center;
+}
+.main-container2-blocos div {
+    background-color: #EDBA45;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: 5px solid #cda444b1;
+}
+.main-container2-blocos div:hover {
+    transition: 1s;
+    transform: translateX(3px) scale(1.1);
+    cursor: pointer;
+}
+.main-container2-blocos div img {
+    width: 350px;
+    height: 350px;
+    border-bottom: 30px solid transparent;
+    border-top: 5px solid transparent;
+    border-top-left-radius: 5%;
+    border-top-right-radius:5%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25%;
+}
+.main-container2-blocos div p {
+    font-size: 30px;
+    font-family: Contrail One;
+    color: white;
+}
+.main-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 90px;
+    background-color: #00BF63;
+    border-top: 5px dotted #ffffff;
+    border-top-right-radius: 35%;
+      
+}
+.main-container3-text {
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    
+}
+.main-container3 h3 {
+    font-size: 40px;
+    font-family: Coiny;
+    color: white;
+    text-shadow: 4px 4px #00BF63;
+    padding: 20px;
+    
+}
+.main-container3 p {
+    font-size: 25px;
+    font-family: Contrail One;
+    color: white;
+
+}
+.main-container3 img {
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.footer-container {
+    background-image: url(../Recursos/Fundo1.png);
+    background-size: 500px 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container-logo img {
+    width: 180px;
+    height: 150px;
+    padding: 50px 40px;
+}
+.footer-container-2 {
+    padding: 60px 40px;
+}
+
+.footer-container-2 p{
+    padding: 5px;
+    font-family: Contrail One;
+    color:#00BF63;
+}
+.footer-container-2 :first-child{
+    font-size: 25px;
+    font-family: Coiny;
+    color: #EDBA45;
+}
