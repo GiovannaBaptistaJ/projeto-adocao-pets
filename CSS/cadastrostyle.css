@@ -1,0 +1,71 @@
+
+.container-login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   align-items: center;
+   background-color:#FFF8B7;;
+ 
+}
+.container-img img {
+    width: 600px;
+    height: 500px;
+}
+.campo-login {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.campo-login a {
+    font-size: 50px;
+    font-family: Coiny;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.campo-login a:hover {
+    text-decoration: underline 3px #00BF63
+}
+.a-entrar {
+    color: #9d7e005c;
+}
+.a-cadastrar {
+    color: #FFDA48;
+}
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+.formulario-login input {
+    width: 600px;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    padding: 5px;
+    font-family: Contrail One;
+}
+.formulario-login button, i {
+    align-self: center;
+}
+.formulario-login button {
+    width: 200px;
+    background-color: #FFDA48;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    font-family: Coiny;
+    cursor: pointer;
+}
+.formulario-login button:hover {
+    transition: 1s;
+    transform: translateX(3px) scale(1.1);
+    cursor: pointer;
+}
+.a-entrar {
+    font-size: 60px;
+}

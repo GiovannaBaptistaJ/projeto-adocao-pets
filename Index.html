@@ -12,77 +12,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Contrail+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/resetstyle.css">
     <link rel="stylesheet" href="CSS/indexstyle.css">
+    <script src="https://kit.fontawesome.com/24d02b2e7c.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+           $(function(){ 
+                     $("#header").load("header.html");
+                     $("#footer").load("footer.html"); 
+            });
+      </script>
 </head>
 <body>
-    <header class="header-container">
-        <img src="Recursos/Logo.png.png" alt="">
-        <a href="Index.html">Início</a>
-        <a href="">Pets</a>
-        <a href="">Contato</a>
-    </header>
+    <div id="header"></div>
 
     <main>
         <div class="main-container1">
             <section>
                 <h1>Adote um novo amigo!</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius distinctio architecto facilis sed repudiandae quibusdam
-                magni sapiente mollitia unde minima, facere, necessitatibus nisi aspernatur aut esse labore dignissimos dolore numquam.</p>
+                <p>Não há benefício maior do que ter um amigo tão fiel e companheiro ao seu lado, adotar é um ato de amor que salva vidas. Milhares de cachorros e gatos precisam de ajuda.</p>
                 <button>Clique aqui para começar!</button>
             </section>  
            
         </div>
+        
         <div class="main-container2">
+            <section class="main-container2-text">
+                <h2><i class="fa-solid fa-paw" style="color: #00bf63;"></i>SOBRE NÓS:<i class="fa-solid fa-paw" style="color: #00bf63;"></i></h2>
+                <p>Somos um projeto com o objetivo de facilitar a adoção de pets que precisam de um lar para morar. Você pode adotar qualquer pet que está no site e também divulgar algum bichinho que esteja precisando de ajuda. Queremos incentivar a adoção e conscientizar as pessoas, beneficiando o bem-estar animal.</p>
+            </section>
+        </div>
+        <div class="main-container3">
             <section>
-                <h2>Qual você deseja adotar?</h2>
-                <div class="main-container2-blocos">
+                <h3>QUAL VOCÊ DESEJA ADOTAR?</h3>
+                <div class="main-container3-blocos">
                     <div> 
-                        <img src="Recursos/Cachorros.jpg" alt="">
-                        <p>Cachorros</p>
+                        <img src="Recursos/Cachorros.jpg" alt="Cachorro">
+                        <a href=""><p class="main-container3-titulo1">Cachorros</p></a>
                     </div>
                     <div>
-                        <img src="Recursos/Gatos.jpg" alt="">
-                        <p>Gatos</p>
+                        <img src="Recursos/Gatos.jpg" alt="Gato">
+                        <a href=""><p class="main-container3-titulo2">Gatos</p></a>
                     </div>
                 </div>
                 
             </section>
         </div>
-        <div class="main-container3">
-            <div class="main-container3-text">
-                <h3>Sobre nós:</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias repellendus dolor ad eius quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque distinctio, ducimus fugit, omnis consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias repellendus dolor ad eius quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque distinctio, ducimus fugit, omnis consequuntur.</p>
+        <div class="main-container4">
+            <h4>POR QUE ADOTAR?</h4>
+            <div class="info">
+                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
+                <p>Reduz a quantidade de bichinhos nas ruas, proporcionando um lar cheio de amor e aumentando a expectativa de vida do bichinho.</p>
             </div>
-            <div class="main-container3-img">
-                <img src="Recursos/Sobrenós.jpg" alt="">
+            <div class="info">
+                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
+                <p>Traz benefícios para a saúde mental, como diminuição do estresse e ansiedade, resultando na melhora do bom-humor.</p>
             </div>
-            
+            <div class="info">
+                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
+                <p>Ajuda na saúde física, pois um bichinho precisa de passeios e brincadeiras, resultando em um estilo de vida mais movimentado e saudável.</p>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
+                <p>Os pets fornecem um amor incondicional, sendo leais e companheiros aos donos, formando uma grande conexão emocional de muito carinho.</p>
+            </div>
         </div>
         
     </main>
 
-    <footer class="footer-container">
-        <div class="footer-container-logo">
-            <img src="Recursos/Logo.png.png" alt="">
-        </div>
-        <div class="footer-container-2">
-            <p>Endereço:</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-        </div>
-        <div class="footer-container-2">
-            <p>Contato:</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-        </div>
-        <div class="footer-container-2">
-            <p>Colaboladores:</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-        </div>
-        
-    </footer>
+    <div id="footer"></div>
 </body>
 </html>

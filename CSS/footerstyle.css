@@ -1,0 +1,29 @@
+
+.footer-container {
+    background-color: #FFDA48;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-container-logo img {
+    width: 180px;
+    height: 150px;
+    padding: 50px 40px;
+}
+.footer-container-2 {
+    padding: 60px 40px;
+}
+.footer-container-2 p {
+    color: #9D7D00;
+}
+.footer-container-2 .titulo-footer{
+    font-size: 25px;
+    font-family: Coiny;
+}
+.footer-container-2 a{
+    text-decoration: none;
+    font-family: Contrail One;
+    padding: 5px;
+    font-size: 15px;
+
+}

@@ -1,0 +1,95 @@
+.container-principal {
+    display: flex;
+    flex-direction: column;
+  
+}
+.titulo {
+    background-color: #FFF8B7;
+    
+}
+h1 {
+    font-size: 60px;
+    color: #FFDA48;
+    font-family: Coiny;
+    padding: 25px;
+    text-align: center;
+}
+.barra-filtro {
+    background-color: #FFDA48;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.barra-filtro select {
+    
+    font-family: Coiny;
+    color: #9D7D00;
+    width: 247px;
+    height: 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+}
+
+.barra-filtro select option:disabled {
+    color: #00BF63;
+}
+.selecao-pets {
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    gap: 30px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.bloco {
+    background-color: #FFF8B7;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.bloco img {
+    width: 100%;
+    height: 180px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+.bloco figcaption, .bloco p {
+    color: #9D7D00 ;
+    text-align: center;
+    padding: 1px;
+}
+.bloco figcaption {
+    font-family: Coiny;
+    font-size: 20px;
+}
+.bloco p {
+    font-family: Contrail One;
+    font-size: 15px;
+}
+.selecao-pets button {
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #FFDA48;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    font-family: Coiny;
+    cursor: pointer;
+    grid-column: 2;
+    justify-self: center;
+    margin-top: 10px;
+}
+.selecao-pets button:hover {
+    transition: 1s;
+    transform: translateX(3px) scale(1.1);
+    cursor: pointer;
+}
