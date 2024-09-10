@@ -1,8 +1,4 @@
-body {
-    background-color: #ffffff
-}
-
-
+/* Estilos da página principal */
 .main-container1 {
     padding-left: 50px;
     padding-top: 70px;
@@ -11,30 +7,23 @@ body {
     flex-direction: column;
     background-image: url(../Recursos/Polly.png);
     border-bottom: 5px dotted #00BF63;
-    border-bottom-left-radius: 25%;
-    
+    border-bottom-left-radius: 25%; 
 }
-.main-container1 section {
-    width: 700px;
-    height: 400px;
-}
-.main-container1 section h1 {
-    font-family: Coiny;
-    font-size: 60px;
+.main-container1 h1 {
     padding-top: 10px;
     color: white;
     text-shadow: 4px 4px #00BF63;
-    
 }
-.main-container1 section p {
+.main-container1 p {
     font-family: Contrail One;
     padding-top: 10px;
     padding-bottom: 50px;
     color: white;
-    font-size: 20px;
     text-align: justify;
+    font-size: 20px;
+    width: 800px;
 }
-.main-container1 section button {
+.main-container1 button {
     font-family: Coiny;
     background-color: #FFDA48;
     color: white;
@@ -45,7 +34,7 @@ body {
     font-size: 20px;
     
 }
-.main-container1 section button:hover {
+.main-container1 button:hover {
     cursor: pointer;
     transition: 1s;
     transform: translateX(10px) scale(1.2);
@@ -53,40 +42,28 @@ body {
 }
 .main-container2 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    margin: 40px 40px;
-      
-}
-.main-container2-text {
-    width: 900px;
+    text-align: center;
+    margin: 40px 40px;     
 }
 .main-container2 h2 {
-    font-size: 50px;
-    font-family: Coiny;
     color: #FFDA48;
-    padding: 20px;
-    text-align: center;
-    
+    padding: 20px;  
 }
 .main-container2 p {
     font-size: 30px;
-    font-family: Contrail One;
     color: #9D7D00;
-    text-align: justify;
-
+    width: 900px;
 }
 
 .main-container3 {
   margin-top: 60px;
+  text-align: center;
     
 }
-.main-container3 section h3 {
-    text-align: center;
-    font-size: 35px;
-    font-family: Coiny;
+.main-container3 h2 {
     color: #FFDA48;
-
 }
 .main-container3-blocos {
     display: flex;
@@ -98,7 +75,7 @@ body {
     padding: 20px;
 }
 
-.main-container3-blocos div img {
+.main-container3-blocos figure img {
     width: 350px;
     height: 350px;
     border-top-left-radius: 5%;
@@ -107,25 +84,17 @@ body {
     border-bottom-right-radius:25%;
 }
 
-.main-container3-blocos div p {
+.main-container3-blocos figcaption a h3 {
     font-size: 30px;
-    font-family: Coiny;
     color: white;
-    position: absolute;
-    top: 1350px;
     background-color: #FFDA48;
     border-radius: 8px;
     padding: 2px 30px;
     text-align: center;
     
 }
-.main-container3-titulo1 {
-    right: 840px;
-}
-.main-container3-titulo2 {
-    right: 455px;
-}
-.main-container3-blocos div p:hover {
+
+.main-container3-blocos figcaption a h3:hover {
     transition: 1s;
     transform: translateX(3px) scale(1.1);
     cursor: pointer;
@@ -138,9 +107,7 @@ body {
     margin-top: 40px;
     margin-bottom: 60px;
 }
-.main-container4 h4 {
-    font-size: 40px;
-    font-family: Coiny;
+.main-container4 h2 {
     color: #FFDA48;
 
 }
@@ -160,8 +127,10 @@ body {
     color: #9D7D00;
     font-size: 20px;
     font-family: Contrail One;
- 
     text-align: justify;
    
+}
+@media(max-width:750px) {
+    
 }
 

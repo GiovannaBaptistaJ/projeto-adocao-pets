@@ -1,4 +1,4 @@
-
+/* Estilos da seção com o footer */
 .footer-container {
     background-color: #FFDA48;
     display: flex;
@@ -13,17 +13,16 @@
 .footer-container-2 {
     padding: 60px 40px;
 }
-.footer-container-2 p {
+.footer-container-2 h2, a {
     color: #9D7D00;
+    padding: 5px 0px;
 }
 .footer-container-2 .titulo-footer{
-    font-size: 25px;
-    font-family: Coiny;
+    font-size: 25px;  
 }
 .footer-container-2 a{
-    text-decoration: none;
-    font-family: Contrail One;
-    padding: 5px;
     font-size: 15px;
+    display: block;
+    
 
 }

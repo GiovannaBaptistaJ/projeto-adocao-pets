@@ -1,3 +1,4 @@
+/* Estilos da seção de contato */
 .container-principal {
     display: flex;
     flex-direction: column;
@@ -13,7 +14,6 @@
     background-color: #FFF8B7;
 }
 .container-fale h1 {
-    font-size: 60px;
     color: #FFDA48;
     font-family: Coiny;
     

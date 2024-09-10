@@ -1,3 +1,4 @@
+/* Estilos da página principal de adoção dos bichos */
 .container-principal {
     display: flex;
     flex-direction: column;
@@ -8,9 +9,7 @@
     
 }
 h1 {
-    font-size: 60px;
     color: #FFDA48;
-    font-family: Coiny;
     padding: 25px;
     text-align: center;
 }
@@ -23,8 +22,6 @@ h1 {
     
 }
 .barra-filtro select {
-    
-    font-family: Coiny;
     color: #9D7D00;
     width: 247px;
     height: 25px;
@@ -69,7 +66,6 @@ h1 {
     font-size: 20px;
 }
 .bloco p {
-    font-family: Contrail One;
     font-size: 15px;
 }
 .selecao-pets button {
