@@ -1,0 +1,34 @@
+/* Resets */
+body {
+    margin: 0;
+    background-color: var(--primaria1);
+}
+
+li {
+    list-style-type: none;
+
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote {
+    margin: 0px;
+}

@@ -1,0 +1,56 @@
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 40px;
+}
+
+header a {
+    color: var(--primaria6);
+}
+
+.header-a,
+.header-login {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.header-a ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+.link-header {
+    display: flex;
+    position: relative;
+}
+
+.link-header::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: var(--primaria6);
+    margin-top: 30px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.link-header:hover::after {
+    width: 100%;
+}
+
+
+.header-login::before {
+    content: "";
+    height: 37px;
+    width: 2px;
+    background-color: var(--primaria4);
+}
+
+@media (max-width: 800px) {}
