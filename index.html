@@ -2,18 +2,16 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="description" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopt House</title>
+    <title>Casa de Adoção</title>
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Contrail+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/resetstyle.css">
-    <link rel="stylesheet" href="CSS/indexstyle.css">
-    <script src="https://kit.fontawesome.com/24d02b2e7c.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+        rel="stylesheet">
     <script src="jquery-3.7.1.min.js"></script>
     <script>
         $(function () {
@@ -26,64 +24,127 @@
 <body>
     <!--Criando a conexão com o cabeçalho-->
     <div id="header"></div>
-    
+
     <!--Criando o conteúdo principal-->
-    <main>
-         <!--Criando uma introdução-->
-        <section class="main-container1">
-            <h1>Adote um novo amigo!</h1>
-            <p>Não há benefício maior do que ter um amigo tão fiel e companheiro ao seu lado, adotar é um ato de amor
-                que salva vidas. Milhares de cachorros e gatos precisam de ajuda.</p>
-            <button>Clique aqui para começar!</button>
-        </section>
-         <!--Criando uma seção "sobre nós"-->
-        <section class="main-container2">
-            <h2><i class="fa-solid fa-paw" style="color: #00bf63;"></i>SOBRE NÓS:<i class="fa-solid fa-paw"
-                    style="color: #00bf63;"></i></h2>
-            <p>Somos um projeto com o objetivo de facilitar a adoção de pets que precisam de um lar para morar. Você
+    <main class="bg-brown">
+        <div class="container introducao">
+            <div class="introducao-textos">
+                <h1>Adote um novo amigo!</h1>
+                <p class="txt-size2regular">Não há benefício maior do que ter um amigo tão fiel e companheiro ao seu
+                    lado.</p>
+                <a class="botao">CLIQUE PARA COMEÇAR!</a>
+            </div>
+            <div><img src="Recursos/maincatanddog.png" alt="imagem-pets" width="781" height="520"></div>
+
+        </div>
+    </main>
+    <!--Criando uma seção "sobre nós"-->
+    <section>
+        <div class="container sobre-nos">
+            <h2>SOBRE NÓS</h2>
+            <p class="txt-size2regular">Somos um projeto com o objetivo de facilitar a adoção de pets que precisam de um
+                lar
+                para morar. Você
                 pode adotar qualquer pet que está no site e também divulgar algum bichinho que esteja precisando de
                 ajuda. Queremos incentivar a adoção e conscientizar as pessoas, beneficiando o bem-estar animal.</p>
-        </section>
-         <!--Criando uma seção para a escolha do animal a adotar-->
-        <section class="main-container3">
-            <h2>QUAL VOCÊ DESEJA ADOTAR?</h2>
-            <div class="main-container3-blocos">
+            <ul>
+                <li class="borders">
+                    <h3>Clientes<img src="Recursos/star-icon.svg"></h3>
+                    <p class="txt-size3regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
+                        repellendus dolor ad eius
+                        quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
+                        distinctio
+                    </p>
+                </li>
+                <li class="borders">
+                    <h3>Adoção<img src="Recursos/adoption-icon.svg"></h3>
+                    <p class="txt-size3regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
+                        repellendus dolor ad eius
+                        quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
+                        distinctio
+                    </p>
+                </li>
+                <li class="borders">
+                    <h3>Valores<img src="Recursos/heart-icon.svg"></h3>
+                    <p class="txt-size3regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
+                        repellendus dolor ad eius
+                        quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
+                        distinctio
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Criando uma seção "Motivos para adotar"-->
+    <section class="bg-yellow bg-motivos">
+        <div class="container motivos">
+            <div class="motivos-img">
+                <img src="Recursos/dog-pq-adotar.png" alt="" width="601.51" height="865">
+            </div>
+            <div class="motivos-textos">
+                <h2>POR QUE ADOTAR?</h2>
+                <ul>
+                    <li class="info-motivos borders">
+                        <img src="Recursos/pata.svg" alt="pata-animal">
+                        <p class="txt-size3">Reduz a quantidade de bichinhos nas ruas, proporcionando um lar
+                            cheio de
+                            amor e aumentando a
+                            expectativa de vida do bichinho.</p>
+                    </li>
+                    <li class="info-motivos borders">
+                        <img src="Recursos/pata.svg" alt="pata-animal">
+                        <p class="txt-size3">Traz benefícios para a saúde mental, como diminuição do estresse e
+                            ansiedade, resultando na
+                            melhora
+                            do bom-humor.</p>
+                    </li>
+                    <li class="info-motivos borders">
+                        <img src="Recursos/pata.svg" alt="pata-animal">
+                        <p class="txt-size3">Ajuda na saúde física, pois um bichinho precisa de passeios e
+                            brincadeiras, resultando em um
+                            estilo
+                            de vida mais movimentado e saudável.</p>
+                    </li>
+                    <li class="info-motivos borders">
+                        <img src="Recursos/pata.svg" alt="pata-animal">
+                        <p class="txt-size3">Os pets fornecem um amor incondicional, sendo leais e companheiros
+                            aos
+                            donos, formando uma grande
+                            conexão emocional de muito carinho.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!--Criando uma seção para a escolha do animal a adotar-->
+
+    <section class="container escolha-pet">
+        <h2>ACHE SEU MELHOR AMIGO!</h2>
+        <p class="txt-size1">Escolha entre um cachorrinho companheiro e alegre ou um gatinho fiel e amoroso. Ganhará
+            latidos ou ronronados
+            que esquentam o coração</p>
+        <ul class="lista-pet">
+            <li>
                 <figure>
-                    <img src="Recursos/Cachorros.jpg" alt="Cachorro">
-                    <figcaption><a href=""><h3>Cachorros</h3></a></figcaption>
-                </figure>     
+                    <img src="Recursos/ache-seu-dog.png" alt="Cachorro">
+                    <figcaption><a href="">
+                            <h3 class="botao">Cachorrinhos</h3>
+                        </a></figcaption>
+                </figure>
+            </li>
+            <li>
                 <figure>
-                    <img src="Recursos/Gatos.jpg" alt="Gato">
-                    <figcaption><a href=""><h3>Gatos</h3></a></figcaption>
-                </figure>      
-            </div>
-        </section>
-         <!--Criando uma seção "Motivos para adotar"-->
-        <section class="main-container4">
-            <h2>POR QUE ADOTAR?</h2>
-            <div class="info">
-                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
-                <p>Reduz a quantidade de bichinhos nas ruas, proporcionando um lar cheio de amor e aumentando a
-                    expectativa de vida do bichinho.</p>
-            </div>
-            <div class="info">
-                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
-                <p>Traz benefícios para a saúde mental, como diminuição do estresse e ansiedade, resultando na melhora
-                    do bom-humor.</p>
-            </div>
-            <div class="info">
-                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
-                <p>Ajuda na saúde física, pois um bichinho precisa de passeios e brincadeiras, resultando em um estilo
-                    de vida mais movimentado e saudável.</p>
-            </div>
-            <div class="info">
-                <i class="fa-solid fa-paw fa-2x" style="color: #00bf63;"></i>
-                <p>Os pets fornecem um amor incondicional, sendo leais e companheiros aos donos, formando uma grande
-                    conexão emocional de muito carinho.</p>
-            </div>
-        </section>
-    </main>
-     <!--Criando a conexão com o footer-->
+                    <img src="Recursos/ache-seu-cat.png" alt="Gato">
+                    <figcaption><a href="">
+                            <h3 class="botao">Gatinhos</h3>
+                        </a></figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <!--Criando a conexão com o footer-->
     <div id="footer"></div>
 </body>
 

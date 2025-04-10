@@ -1,0 +1,9 @@
+@import "./global/resets.css";
+@import "./global/componentes.css";
+@import "./global/tipografia.css";
+@import "./global/cores.css";
+
+@import "./header.css";
+
+
+@import "./index.css";
