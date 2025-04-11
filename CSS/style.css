@@ -4,6 +4,11 @@
 @import "./global/cores.css";
 
 @import "./header.css";
+@import "./footer.css";
 
 
-@import "./index.css";
+
+@import "./index/introducao.css";
+@import "./index/sobrenos.css";
+@import "./index/motivos.css";
+@import "./index/escolhapet.css";

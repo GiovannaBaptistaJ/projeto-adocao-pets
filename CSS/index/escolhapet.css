@@ -1,0 +1,41 @@
+.escolha-pet {
+    padding: 85px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--primaria6);
+
+}
+
+.lista-pet {
+    display: flex;
+    gap: 20px;
+}
+
+.lista-pet figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.lista-pet a {
+    color: var(--primaria6);
+}
+
+@media(max-width: 800px) {
+    .lista-pet li figure img {
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .lista-pet {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+}
