@@ -15,6 +15,7 @@ header a {
 .header-login {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
 
 }
@@ -53,4 +54,8 @@ header a {
     background-color: var(--primaria4);
 }
 
-@media (max-width: 800px) {}
+@media (max-width: 600px) {
+    .header-login::before {
+        display: none;
+    }
+}

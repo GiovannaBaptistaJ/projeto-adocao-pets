@@ -1,0 +1,50 @@
+main .introducao {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    gap: 25px;
+
+
+}
+
+.introducao-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 0px 30px;
+}
+
+.introducao-textos p,
+.introducao-textos h1 {
+    color: var(--white);
+}
+
+@media(max-width: 800px) {
+    main .introducao {
+        grid-template-columns: 1fr;
+        padding-top: 80px;
+
+
+    }
+
+    .introducao-textos {
+        align-items: center;
+    }
+
+    .introducao-textos h1,
+    .introducao-textos p {
+        text-align: center;
+    }
+
+    .introducao-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .introducao-img img {
+        width: 561px;
+        height: 300px;
+    }
+
+}
