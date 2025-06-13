@@ -1,0 +1,93 @@
+/* Setting up the footer */
+footer {
+    background-color: var(--primary6);
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 85px 30px;
+
+
+
+}
+
+.footer h2 {
+    color: var(--primary1);
+}
+
+
+.icon-socialmedia {
+    display: inline;
+    padding: 30px 5px;
+
+}
+
+.logo-icon {
+    margin-right: 20px;
+}
+
+.footer-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.footer-a a {
+    color: var(--primary1);
+}
+
+.footer-a a:hover {
+    color: var(--primary2);
+}
+
+.paragraph-rights {
+    display: flex;
+    justify-content: center;
+    color: var(--primary5);
+    letter-spacing: 2px;
+    padding: 20px;
+    position: relative;
+
+
+}
+
+.paragraph-rights::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    top: -10px;
+    background-color: var(--primary5);
+    position: absolute;
+
+}
+
+@media(max-width: 800px) {
+    .footer {
+        grid-template-columns: 1fr;
+
+    }
+
+    .footer-svgs {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .paragraph-rights {
+        justify-content: left;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    .footer-a {
+        grid-template-columns: 1fr;
+    }
+}

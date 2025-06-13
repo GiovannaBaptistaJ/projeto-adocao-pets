@@ -1,28 +1,33 @@
+/* Setting up the header */
 header div {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px;
     padding: 20px 40px;
+    gap: 25px;
 }
 
 header a {
-    color: var(--primaria6);
+    color: var(--primary6);
 }
 
 .header-a,
 .header-login {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    gap: 25px;
 
+}
+
+.header-a {
+    flex-wrap: wrap;
 }
 
 .header-a ul {
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 25px;
 
 }
 
@@ -36,7 +41,7 @@ header a {
     display: block;
     height: 2px;
     width: 0px;
-    background: var(--primaria6);
+    background: var(--primary6);
     margin-top: 30px;
     transition: 0.3s;
     position: absolute;
@@ -47,15 +52,16 @@ header a {
 }
 
 
+
 .header-login::before {
     content: "";
     height: 37px;
     width: 2px;
-    background-color: var(--primaria4);
+    background-color: var(--primary4);
 }
 
-@media (max-width: 600px) {
-    .header-login::before {
-        display: none;
+@media (max-width: 800px) {
+    header div {
+        justify-content: center;
     }
 }

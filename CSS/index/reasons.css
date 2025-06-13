@@ -1,51 +1,49 @@
-.bg-motivos {
+/* Setting up the reasons */
+
+.bg-reasons {
     box-shadow: inset 0 40px var(--white), inset 0 -40px var(--white);
 }
 
-.motivos {
+.reasons {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
-    gap: 40px;
-    color: var(--primaria6);
+    gap: 20px;
+    color: var(--primary6);
     padding: 0px 30px;
 }
 
-.motivos-textos {
+.reasons-texts {
     align-self: center;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-
+    gap: 20px;
 
 }
 
-.motivos-textos ul {
+.reasons-texts ul {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.info-motivos {
+.info-reasons {
     display: flex;
-    gap: 25px;
+    gap: 20px;
     padding: 20px;
     background-color: var(--white);
 }
 
 @media (max-width: 1000px) {
-    .motivos {
+    .reasons {
         grid-template-columns: 1fr;
+        padding: 85px 30px;
     }
 
-    .motivos-img img {
+    .reasons-img img {
         display: none;
     }
 
-    .bg-motivos {
+    .bg-reasons {
         box-shadow: inset 0 0px;
-    }
-
-    .motivos-textos {
-        padding: 20px 30px;
     }
 }

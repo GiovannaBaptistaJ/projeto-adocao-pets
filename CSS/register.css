@@ -1,0 +1,116 @@
+/* Setting up register */
+.register-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+
+.register-content-img {
+    background-image: url(../Resources/sitting-puppy-red-bench.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+
+}
+
+.register {
+    background-color: var(--primary2);
+    padding: 85px 30px;
+    margin: 85px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: -100px;
+
+}
+
+.register-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.selected {
+    display: flex;
+    position: relative;
+    color: var(--primary6);
+
+
+}
+
+.disabled {
+    color: var(--primary4);
+    cursor: pointer;
+}
+
+.selected::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--green);
+    margin-top: 60px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.register form input {
+    border: 1px solid #969696;
+    background-color: var(--primary1);
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+.register form span {
+    align-self: flex-end;
+    cursor: pointer;
+    color: var(--green);
+}
+
+@media (max-width: 1000px) {
+    .selected::after {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .register-content {
+        grid-template-columns: 1fr;
+        background-image: url(../Resources/sitting-puppy-red-bench.png);
+    }
+
+    .register-content-img {
+        display: none;
+
+    }
+
+    .register {
+        margin: 50px 25px;
+
+    }
+
+
+    .selected::after {
+        margin-top: 30px;
+    }
+
+    .register-options {
+        justify-content: space-evenly;
+    }
+
+
+
+}

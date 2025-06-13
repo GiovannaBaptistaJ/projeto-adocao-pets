@@ -1,0 +1,105 @@
+/* Setting up find your pet */
+.find-your-pet {
+    padding: 85px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-your-pet h1,
+.find-your-pet p {
+    text-align: center;
+    color: var(--primary6);
+    max-width: 60ch;
+}
+
+.filters-pet {
+    padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.filters-pet select {
+    border-top: none;
+    border-bottom: none;
+    width: 265px;
+    padding: 25px 0px;
+    color: var(--primary6);
+
+}
+
+
+
+
+.list-find-your-pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px 30px;
+    gap: 25px;
+
+
+}
+
+.block-list {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 25px;
+    color: var(--primary6);
+    padding-right: 25px;
+
+}
+
+.block-list img {
+    grid-row: 1/5;
+
+}
+
+.block-list div h2 {
+    padding-top: 40px;
+}
+
+.block-list p {
+    max-width: 40ch;
+}
+
+.block-list div h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.block-list button {
+    justify-self: flex-end;
+    margin: 10px;
+
+}
+
+@media (max-width: 800px) {
+    .block-list {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .block-list div h2 {
+        padding-top: 0px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .filters-pet {
+        flex-wrap: wrap;
+    }
+
+    .filters-pet select {
+        width: 165px;
+    }
+}

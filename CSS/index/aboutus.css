@@ -1,0 +1,45 @@
+/* Setting up about us */
+.about-us {
+    padding: 85px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.about-us h2 {
+    color: var(--primary6);
+}
+
+.about-us-txts p {
+    padding: 5px 0px;
+}
+
+.about-us ul {
+    display: flex;
+    gap: 20px;
+}
+
+.about-us ul li {
+    background-color: var(--primary2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.about-us ul li h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+@media (max-width: 700px) {
+    .about-us ul {
+        flex-direction: column;
+    }
+}
