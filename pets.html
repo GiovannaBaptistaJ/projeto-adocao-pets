@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Adoção</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+        rel="stylesheet">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!--Creating the connection with the header-->
+    <div id="header"></div>
+
+    <!--Creating a section "pets" -->
+    <main class="bg-yellow2">
+        <section class="container find-your-pet">
+            <h1>Encontre seu novo amigo!</h1>
+            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
+                repellendus dolor ad eius
+                quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque distinctio,
+                ducimus fugit,</p>
+        </section>
+        <section class="bg-yellow">
+            <form class="container filters-pet">
+                <select name="" id="" class="borders txt-size1medium">
+                    <optgroup label="Estado">
+                        <option value="">Estado</option>
+                    </optgroup>
+                </select>
+                <select name="" id="" class="borders txt-size1medium">
+                    <optgroup label="Cidade">
+                        <option value="">Cidade</option>
+                    </optgroup>
+                </select>
+                <select name="" id="" class="borders txt-size1medium">
+                    <optgroup label="Tipo">
+                        <option value="">Tipo</option>
+                        <option value="">Todos</option>
+                        <option value="">Gato</option>
+                        <option value="">Cachorro</option>
+                    </optgroup>
+
+                </select>
+            </form>
+        </section>
+    </main>
+    <ul class="list-find-your-pet container">
+        <li class="block-list bg-yellow2 borders">
+            <img src="./Resources/photo-pet.png" alt="photo-pet" width="308" height="371">
+            <div>
+                <h2>NOME</h2>
+                <h3><img src="Resources/card.svg" alt="card">Idade, gênero</h3>
+            </div>
+            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
+                amet consectetur
+                adipisicing elit.</p>
+            <button class="main-button">Adotar</button>
+        </li>
+        <li class="block-list bg-yellow2 borders">
+            <img src="./Resources/photo-pet.png" alt="photo-pet" width="308" height="371">
+            <div>
+                <h2>NOME</h2>
+                <h3><img src="Resources/card.svg" alt="card">Idade, gênero</h3>
+            </div>
+            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
+                amet consectetur
+                adipisicing elit.</p>
+            <button class="main-button">Adotar</button>
+        </li>
+        <li class="block-list bg-yellow2 borders">
+            <img src="./Resources/photo-pet.png" alt="photo-pet" width="308" height="371">
+            <div>
+                <h2>NOME</h2>
+                <h3><img src="Resources/card.svg" alt="card">Idade, gênero</h3>
+            </div>
+            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
+                amet consectetur
+                adipisicing elit.</p>
+            <button class="main-button">Adotar</button>
+        </li>
+    </ul>
+    <!--Creating the connection with the footer-->
+    <div id="footer"></div>
+</body>
+
+</html>

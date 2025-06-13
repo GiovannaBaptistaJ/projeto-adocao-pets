@@ -1,7 +1,7 @@
 /* Resets */
 body {
     margin: 0;
-    background-color: var(--primaria1);
+    background-color: var(--primary1);
 }
 
 li {
@@ -32,4 +32,12 @@ p,
 blockquote,
 figure {
     margin: 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    border: none;
 }

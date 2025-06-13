@@ -1,0 +1,15 @@
+/* Setting up the colors */
+:root {
+    --primary1: #FDFFF0;
+    --primary2: #FEFFB7;
+    --primary3: #FFEF8B;
+    --primary4: #D9AE3E;
+    --primary5: #AB8112;
+    --primary6: #503C18;
+
+    --green: #00BF63;
+    --green2: #001A0B;
+
+    --white: #FAFAFA;
+    --black: #1C1C1C;
+}

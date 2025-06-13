@@ -1,14 +1,19 @@
 @import "./global/resets.css";
-@import "./global/componentes.css";
-@import "./global/tipografia.css";
-@import "./global/cores.css";
-
-@import "./header.css";
-@import "./footer.css";
-
+@import "./global/components.css";
+@import "./global/typography.css";
+@import "./global/colors.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 
-@import "./index/introducao.css";
-@import "./index/sobrenos.css";
-@import "./index/motivos.css";
-@import "./index/escolhapet.css";
+@import "./index/introduction.css";
+@import "./index/aboutus.css";
+@import "./index/reasons.css";
+@import "./index/findyourpet.css";
+
+@import "./contactus.css";
+
+@import "./login.css";
+@import "./register.css";
+
+@import "./pets.css";

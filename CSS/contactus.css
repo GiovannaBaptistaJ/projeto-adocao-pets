@@ -1,0 +1,113 @@
+/* Setting up contact us */
+.contact-us-bg {
+    background-image: url(../Resources/speak-with-us.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-us h1,
+.contact-us p {
+    color: var(--primary1);
+    margin: 0px 10% 0px 5%;
+}
+
+.contact-us h1 {
+    padding-top: 85px;
+}
+
+.contact-us p {
+    max-width: 50ch;
+    padding-bottom: 85px;
+}
+
+.contact-us-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 85px 136px;
+
+}
+
+.contact-us-socialmedia,
+.contact-us-message {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-message h2,
+.contact-us-socialmedia h2 {
+    text-align: center;
+    color: var(--primary6);
+}
+
+.contact-us-socialmedia {
+    background-color: var(--primary2);
+    gap: 25px;
+
+}
+
+.contact-us-socialmedia-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.contact-us-message {
+    background-color: var(--primary3);
+    gap: 25px;
+}
+
+.contact-us-form {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+    border: 1px solid #969696;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.contact-us-form textarea {
+    height: 100px;
+}
+
+@media (max-width: 1000px) {
+    .contact-us-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 85px 80px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .contact-us-form input,
+    .contact-us-form textarea {
+        width: 200px;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+    .contact-us-section {
+        padding: 85px 30px;
+    }
+
+    .contact-us-socialmedia-icons {
+        flex-direction: column;
+    }
+
+}

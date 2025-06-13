@@ -1,0 +1,47 @@
+/* Setting up the introduction */
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    gap: 20px 80px;
+}
+
+.introduction-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+}
+
+.introduction-texts p,
+.introduction-texts h1 {
+    color: var(--white);
+    max-width: 40ch;
+}
+
+@media(max-width: 800px) {
+    main .introduction {
+        grid-template-columns: 1fr;
+        padding-top: 80px;
+
+
+    }
+
+    .introduction-texts {
+        align-items: center;
+    }
+
+    .introduction-texts h1,
+    .introduction-texts p {
+        text-align: center;
+    }
+
+    .introduction-img img {
+        height: auto;
+        width: auto;
+    }
+
+
+
+
+}
