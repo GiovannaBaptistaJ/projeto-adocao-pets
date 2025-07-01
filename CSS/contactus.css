@@ -19,6 +19,19 @@
 
 .contact-us h1 {
     padding-top: 85px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-us h1::after {
+    display: block;
+    content: "";
+    width: 34.33px;
+    height: 32.03px;
+    background: url(../Resources/paw-left.svg.svg) no-repeat;
+    background-size: contain;
+
 }
 
 .contact-us p {
@@ -29,7 +42,7 @@
 .contact-us-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 85px 136px;
+    padding: 85px 20px;
 
 }
 

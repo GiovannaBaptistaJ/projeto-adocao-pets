@@ -26,6 +26,16 @@
 
 }
 
+.login::after {
+    content: "";
+    display: block;
+    background-image: url(../Resources/paw-right.svg);
+    width: 23px;
+    height: 24px;
+    align-self: flex-end;
+
+}
+
 .login-options {
     display: flex;
     justify-content: space-between;

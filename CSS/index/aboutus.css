@@ -4,16 +4,21 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    color: var(--primary6);
 
 }
 
 .about-us h2 {
-    color: var(--primary6);
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
+
 
 .about-us-txts p {
     padding: 5px 0px;
 }
+
 
 .about-us ul {
     display: flex;
