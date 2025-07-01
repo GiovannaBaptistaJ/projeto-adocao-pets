@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós - Casa de Adoção</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+        rel="stylesheet">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <link rel="shortcut icon" href="./Resources/paw-left.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!--Creating the connection with the header-->
+    <div id="header"></div>
+
+    <!--Creating a section "about us" -->
+    <div class="introduction-about-us">
+        <img src="Resources/about-us-pets.png" alt="">
+    </div>
+
+    <main class="bg-yellow2">
+        <div class="container main-about-us">
+            <h2>Sobre nós!<img src="Resources/paw-left.svg"><img src="Resources/paw-right.svg"></h2>
+            <p class="txt-size1regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
+                repellendus dolor ad eius
+                quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque distinctio,
+                ducimus fugi.</p>
+            <p class="txt-size1regular">Lorem omnis consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Voluptate
+                alias repellendus dolor ad eius.</p>
+        </div>
+    </main>
+    <section class="bg-info-about-us">
+        <div class="container">
+            <ul class="info-about-us borders bg-yellow">
+                <li>
+                    <img src="Resources/adoption-icon.svg" alt="">
+                    <h2>+100</h2>
+                    <p class="txt-size1regular">Bichinhos adotados</p>
+                </li>
+                <li>
+                    <img src="Resources/star-icon.svg" alt="">
+                    <h2>5</h2>
+                    <p class="txt-size1regular">Avaliação dos clientes</p>
+                </li>
+                <li>
+                    <img src="Resources/heart-icon.svg" alt="">
+                    <h2>+100</h2>
+                    <p class="txt-size1regular">Usuários cadastrados</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="bg-yellow bg-our-clients">
+        <div class="container our-clients">
+            <div class="our-clients-img">
+                <img src="Resources/img-our-clients.png" alt="" class="img-our-clients">
+            </div>
+            <div class="our-clients-txts">
+                <h2>Nossos clientes</h2>
+                <div class="block-our-client borders">
+                    <p class="txt-size1regular"><img src="Resources/paw-left.svg" alt="">“ Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Voluptate
+                        alias repellendus dolor ad
+                        eius quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
+                        distinctio “</p>
+                    <p class="txt-size2semibold our-client-name">Nome Sobrenome</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container frequently-questions">
+            <h2>Perguntas frequentes</h2>
+            <dl class="frequently-questions-blocks">
+                <div class="frequently-questions-block borders">
+                    <img src="Resources/paw-left.svg" alt="" class="fq-paw">
+                    <dt>
+                        <button class="frequently-questions-block-question txt-size1medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias repellendus dolor
+                            ad eius?
+                        </button>
+                    </dt>
+                    <dl class="frequently-questions-block-answer txt-size2regular">Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. Voluptate alias repellendus dolor ad
+                        eius.
+                    </dl>
+                    <img src="Resources/arrow-up.svg" alt=" " class="fq-arrow">
+                </div>
+                <div class="frequently-questions-block borders">
+                    <img src="Resources/paw-left.svg" alt="" class="fq-paw">
+                    <dt>
+                        <button class="frequently-questions-block-question txt-size1medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias repellendus dolor
+                            ad eius?
+                        </button>
+                    </dt>
+                    <dl class="frequently-questions-block-answer txt-size2regular">Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. Voluptate alias repellendus dolor ad
+                        eius.
+                    </dl>
+                    <img src="Resources/arrow-up.svg" alt=" " class="fq-arrow">
+                </div>
+                <div class="frequently-questions-block borders">
+                    <img src="Resources/paw-left.svg" alt="" class="fq-paw">
+                    <dt>
+                        <button class="frequently-questions-block-question txt-size1medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias repellendus dolor
+                            ad eius?
+                        </button>
+                    </dt>
+                    <dl class="frequently-questions-block-answer txt-size2regular">Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. Voluptate alias repellendus dolor ad
+                        eius.
+                    </dl>
+                    <img src="Resources/arrow-up.svg" alt=" " class="fq-arrow">
+                </div>
+            </dl>
+            <a href="/" class="main-button">TERMOS E CONDIÇÕES</a>
+        </div>
+    </section>
+
+
+    <!--Creating the connection with the footer-->
+    <div id="footer"></div>
+</body>
+
+</html>

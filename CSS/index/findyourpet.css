@@ -10,6 +10,11 @@
 
 }
 
+.index-find-your-pet h2 {
+    display: flex;
+    gap: 10px;
+}
+
 .index-find-your-pet-list {
     display: flex;
     justify-content: c;

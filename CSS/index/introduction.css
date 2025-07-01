@@ -11,13 +11,27 @@
     flex-direction: column;
     gap: 25px;
     padding: 30px;
+    color: var(--white);
 }
 
 .introduction-texts p,
 .introduction-texts h1 {
-    color: var(--white);
     max-width: 40ch;
 }
+
+.introduction-texts h1::before {
+    content: "";
+    display: block;
+    background-image: url(../../Resources/paw-left.svg);
+    width: 23px;
+    height: 24px;
+    left: -20px;
+    position: relative;
+
+}
+
+
+
 
 @media(max-width: 800px) {
     main .introduction {
