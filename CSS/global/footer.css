@@ -52,11 +52,19 @@ footer {
     display: flex;
     justify-content: center;
     color: var(--primary5);
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     padding: 20px;
     position: relative;
+    font: 500 1.25rem / 1.25 'Roboto', sans-serif;
+    font-style: italic;
 
 
+}
+
+.paragraph-rights-imgs {
+    color: var(--primary5);
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .paragraph-rights::before {
@@ -70,7 +78,6 @@ footer {
 
 }
 
-@media(max-width: 1000px) {}
 
 @media(max-width: 800px) {
     .footer {

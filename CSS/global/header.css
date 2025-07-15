@@ -20,6 +20,7 @@ header a {
 
 }
 
+
 .header-a {
     flex-wrap: wrap;
 }
@@ -29,6 +30,12 @@ header a {
     flex-wrap: wrap;
     gap: 25px;
 
+}
+
+.header-login li:first-child {
+    display: flex;
+    gap: 25px;
+    align-items: center;
 }
 
 .link-header {
