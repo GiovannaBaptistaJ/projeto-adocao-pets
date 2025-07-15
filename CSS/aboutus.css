@@ -7,7 +7,7 @@
 }
 
 .main-about-us {
-    padding: 85px 25px 45px 25px;
+    padding: 85px 30px 45px 30px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -113,22 +113,46 @@
     gap: 25px;
 }
 
-.frequently-questions,
-.frequently-questions button {
-    color: var(--primary6);
-}
 
 .frequently-questions-block {
-    background-color: var(--primary2);
-    display: grid;
-    grid-template:
-        "svg-img question svg-arrow"
-        ". answer ." / 50px 1fr 50px;
-    align-items: center;
+    background-color: var(--white);
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
     text-align: left;
 
+
+}
+
+.frequently-questions h2,
+.frequently-questions-block-question,
+.frequently-questions-block-answer {
+    color: var(--primary6);
+
+}
+
+.frequently-questions-block dt button {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.frequently-questions-block dt button::before {
+    content: "";
+    display: block;
+    position: relative;
+    background-image: url(../Resources/paw-left.svg);
+    width: 23px;
+    height: 24px;
+}
+
+.frequently-questions-block dt button::after {
+    content: "";
+    display: block;
+    position: relative;
+    background-image: url(../Resources/arrow-down.svg);
+    width: 14px;
+    height: 6px;
 }
 
 .frequently-questions-block-question {
@@ -139,19 +163,11 @@
 }
 
 .frequently-questions-block-answer {
-    grid-area: answer;
-
+    padding-left: 33px;
 
 }
 
-.fq-paw {
-    grid-area: svg-img;
-}
 
-.fq-arrow {
-    grid-area: svg-arrow;
-    justify-self: self-end;
-}
 
 @media (max-width: 1000px) {
     .bg-our-clients {
