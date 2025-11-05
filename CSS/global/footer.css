@@ -90,6 +90,9 @@ footer {
         align-items: center;
 
     }
+    .footer-svgs a {
+        margin-right: 10px;
+    }
 
     .paragraph-rights {
         justify-content: left;

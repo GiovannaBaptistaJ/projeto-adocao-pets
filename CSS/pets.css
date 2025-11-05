@@ -33,6 +33,7 @@
     width: 265px;
     padding: 25px 10px;
     color: var(--primary6);
+    cursor: pointer;
 
 }
 
