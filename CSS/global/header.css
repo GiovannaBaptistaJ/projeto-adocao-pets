@@ -1,4 +1,8 @@
 /* Setting up the header */
+.svg-menu-mobile {
+    display: none;
+}
+
 header div {
     display: flex;
     align-items: center;
@@ -25,7 +29,7 @@ header a {
     flex-wrap: wrap;
 }
 
-.header-a ul {
+.header_nav {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -70,5 +74,39 @@ header a {
 @media (max-width: 800px) {
     header div {
         justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header div {
+        flex-direction: column;
+    }
+    .header-a {
+        flex-direction: column;
+    }
+    .header_nav {
+        display: none;
+    }
+    .header_nav-js {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--primary2);
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--primary4);
+    }
+    .header_nav-js li {
+        margin-bottom: 1px solid #e42;
+    }
+    .svg-menu-mobile {
+        display: block;
+        cursor: pointer;
+    }
+    .header-login {
+        flex-direction: column;      
+    }
+    .header-login::before {
+        width: 0px;
+        height: 0px;
     }
 }
