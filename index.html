@@ -1,162 +1,252 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página principal da casa de adoção.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página principal da casa de adoção." />
     <title>Inicio - Casa de Adoção</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="jquery-3.7.1.min.js"></script>
     <script>
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
     </script>
-    <link rel="shortcut icon" href="./Resources/paw-left.svg" type="image/x-icon">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./Resources/paw-left.svg"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
+  <body>
     <!--Creating the connection with the header-->
     <div id="header"></div>
 
     <!--Creating the main content -->
     <main class="bg-brown">
-        <div class="container introduction">
-            <div class="introduction-texts">
-                <h1>Adote um novo amigo!</h1>
-                <p class="txt-size1regular">Não há benefício maior do que ter um amigo tão fiel e companheiro ao seu
-                    lado.</p>
-                <a class="main-button" href="pets.html">CLIQUE PARA COMEÇAR!</a>
-            </div>
-            <div class="introduction-img"><img src="Resources/main-cat-and-dog.png" alt="img-pets" width="781"
-                    height="520">
-            </div>
-
+      <div class="container introduction">
+        <div class="introduction-texts">
+          <h1>Adote um novo amigo!</h1>
+          <p class="txt-size1regular">
+            Não há benefício maior do que ter um amigo tão fiel e companheiro ao
+            seu lado.
+          </p>
+          <a class="main-button" href="pets.html">CLIQUE PARA COMEÇAR!</a>
         </div>
+        <div class="introduction-img">
+          <img
+            src="Resources/main-cat-and-dog.png"
+            alt="img-pets"
+            width="781"
+            height="520"
+          />
+        </div>
+      </div>
     </main>
     <!--Creating a section "about us" -->
     <section>
-        <div class="container about-us">
-            <h2>SOBRE NÓS<img src="./Resources/paw-left.svg" alt="paw" width="23" height="24"><img
-                    src="./Resources/paw-right.svg" alt="paw" width="23" height="24">
-            </h2>
-            <div class="about-us-txts">
-                <p class="txt-size1regular">Somos um projeto com o objetivo de facilitar a adoção de pets que precisam
-                    de um
-                    lar
-                    para morar.
-                </p>
-                <p class="txt-size1regular">Queremos incentivar a adoção e conscientizar as pessoas, beneficiando o
-                    bem-estar animal.</p>
-            </div>
-            <ul>
-                <li class="borders">
-                    <h3>Clientes<img src="Resources/star-icon.svg" alt="star-icon" width="26" height="23"></h3>
-                    <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
-                        repellendus dolor ad eius
-                        quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
-                        distinctio
-                    </p>
-                    <a class="main-button" href="aboutus.html">SAIBA MAIS!</a>
-                </li>
-                <li class="borders">
-                    <h3>Adoção<img src="Resources/adoption-icon.svg" alt="adoption-hand-icon" width="28" height="23">
-                    </h3>
-                    <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
-                        repellendus dolor ad eius
-                        quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
-                        distinctio
-                    </p>
-                    <a class="main-button" href="aboutus.html">SAIBA MAIS!</a>
-                </li>
-                <li class="borders">
-                    <h3>Valores<img src="Resources/heart-icon.svg" alt="heart-icon" width="27" height="25"></h3>
-                    <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
-                        repellendus dolor ad eius
-                        quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque
-                        distinctio
-                    </p>
-                    <a class="main-button" href="aboutus.html">SAIBA MAIS!</a>
-                </li>
-            </ul>
+      <div class="container about-us">
+        <h2>
+          SOBRE NÓS<img
+            src="./Resources/paw-left.svg"
+            alt="paw"
+            width="23"
+            height="24"
+          /><img
+            src="./Resources/paw-right.svg"
+            alt="paw"
+            width="23"
+            height="24"
+          />
+        </h2>
+        <div class="about-us-txts">
+          <p class="txt-size1regular">
+            Somos um projeto com o objetivo de facilitar a adoção de pets que
+            precisam de um lar para morar.
+          </p>
+          <p class="txt-size1regular">
+            Queremos incentivar a adoção e conscientizar as pessoas,
+            beneficiando o bem-estar animal.
+          </p>
         </div>
+        <ul>
+          <li class="borders">
+            <h3>
+              Clientes<img
+                src="Resources/star-icon.svg"
+                alt="star-icon"
+                width="26"
+                height="23"
+              />
+            </h3>
+            <p class="txt-size2regular">
+              Todos que utilizam nossa plataforma para adotar seu bichinho
+              sempre ficam satisfeitos pela facilidade e por receberem todas as
+              orientações necessárias para o melhor cuidado com o pet.
+            </p>
+            <a class="main-button" href="aboutus.html">SAIBA MAIS!</a>
+          </li>
+          <li class="borders">
+            <h3>
+              Adoção<img
+                src="Resources/adoption-icon.svg"
+                alt="adoption-hand-icon"
+                width="28"
+                height="23"
+              />
+            </h3>
+            <p class="txt-size2regular">
+              Você pode divulgar o bichinho que precisa de um lar ou ser a
+              pessoa que adota. Queremos diminuir o índice de animais
+              abandonados facilitando esse processo e conscientizando cada vez
+              mais pessoas.
+            </p>
+            <a class="main-button" href="aboutus.html">SAIBA MAIS!</a>
+          </li>
+          <li class="borders">
+            <h3>
+              Valores<img
+                src="Resources/heart-icon.svg"
+                alt="heart-icon"
+                width="27"
+                height="25"
+              />
+            </h3>
+            <p class="txt-size2regular">
+              Queremos demonstrar segurança e transparência no momento da adoção
+              para os futuros tutores. Esperamos que esse momento seja de muita
+              alegria tanto para o bichinho quanto para o dono.
+            </p>
+            <a class="main-button" href="aboutus.html">SAIBA MAIS!</a>
+          </li>
+        </ul>
+      </div>
     </section>
     <!--Creating a section "reasons to adoption"-->
     <section class="bg-yellow bg-reasons">
-        <div class="container reasons">
-            <div class="reasons-img">
-                <img src="Resources/why-adoption-dog.png" alt="" width="602" height="865">
-            </div>
-            <div class="reasons-texts">
-                <h2>POR QUE ADOTAR?</h2>
-                <ul>
-                    <li class="info-reasons borders">
-                        <img src="Resources/paw-left.svg" alt="paw" width="23" height="24">
-                        <p class="txt-size2regular">Reduz a quantidade de bichinhos nas ruas, proporcionando um lar
-                            cheio de
-                            amor e aumentando a
-                            expectativa de vida do bichinho.</p>
-                    </li>
-                    <li class="info-reasons borders">
-                        <img src="Resources/paw-left.svg" alt="paw" width="23" height="24">
-                        <p class="txt-size2regular">Traz benefícios para a saúde mental, como diminuição do estresse e
-                            ansiedade, resultando na
-                            melhora
-                            do bom-humor.</p>
-                    </li>
-                    <li class="info-reasons borders">
-                        <img src="Resources/paw-left.svg" alt="paw" width="23" height="24">
-                        <p class="txt-size2regular">Ajuda na saúde física, pois um bichinho precisa de passeios e
-                            brincadeiras, resultando em um
-                            estilo
-                            de vida mais movimentado e saudável.</p>
-                    </li>
-                    <li class="info-reasons borders">
-                        <img src="Resources/paw-left.svg" alt="paw" width="23" height="24">
-                        <p class="txt-size2regular">Os pets fornecem um amor incondicional, sendo leais e companheiros
-                            aos
-                            donos, formando uma grande
-                            conexão emocional de muito carinho.</p>
-                    </li>
-                </ul>
-            </div>
-
+      <div class="container reasons">
+        <div class="reasons-img">
+          <img
+            src="Resources/why-adoption-dog.png"
+            alt=""
+            width="602"
+            height="865"
+          />
         </div>
+        <div class="reasons-texts">
+          <h2>POR QUE ADOTAR?</h2>
+          <ul>
+            <li class="info-reasons borders">
+              <img
+                src="Resources/paw-left.svg"
+                alt="paw"
+                width="23"
+                height="24"
+              />
+              <p class="txt-size2regular">
+                Reduz a quantidade de bichinhos nas ruas, proporcionando um lar
+                cheio de amor e aumentando a expectativa de vida do bichinho.
+              </p>
+            </li>
+            <li class="info-reasons borders">
+              <img
+                src="Resources/paw-left.svg"
+                alt="paw"
+                width="23"
+                height="24"
+              />
+              <p class="txt-size2regular">
+                Traz benefícios para a saúde mental, como diminuição do estresse
+                e ansiedade, resultando na melhora do bom-humor.
+              </p>
+            </li>
+            <li class="info-reasons borders">
+              <img
+                src="Resources/paw-left.svg"
+                alt="paw"
+                width="23"
+                height="24"
+              />
+              <p class="txt-size2regular">
+                Ajuda na saúde física, pois um bichinho precisa de passeios e
+                brincadeiras, resultando em um estilo de vida mais movimentado e
+                saudável.
+              </p>
+            </li>
+            <li class="info-reasons borders">
+              <img
+                src="Resources/paw-left.svg"
+                alt="paw"
+                width="23"
+                height="24"
+              />
+              <p class="txt-size2regular">
+                Os pets fornecem um amor incondicional, sendo leais e
+                companheiros aos donos, formando uma grande conexão emocional de
+                muito carinho.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <!--Creating a section "find your pet"-->
     <section class="container index-find-your-pet">
-        <h2><img src="./Resources/paw-left.svg" alt="paw" width="23" height="24">ACHE SEU MELHOR AMIGO!<img
-                src="./Resources/paw-right.svg" alt="paw" width="23" height="24"></h2>
-        <p class="txt-size1regular">Escolha entre um cachorrinho companheiro e alegre ou um gatinho fiel e amoroso.
-            Ganhará
-            latidos ou ronronados
-            que esquentam o coração</p>
-        <ul class="index-find-your-pet-list">
-            <li>
-                <figure>
-                    <img src="Resources/find-your-dog.png" alt="Cachorro" width="350" height="350">
-                    <figcaption><a href="pets.html" class="main-button">CACHORRINHOS
-                        </a></figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Resources/find-your-cat.png" alt="Gato" width="350" height="350">
-                    <figcaption><a href="pets.html" class="main-button">GATINHOS
-                        </a></figcaption>
-                </figure>
-            </li>
-        </ul>
+      <h2>
+        <img
+          src="./Resources/paw-left.svg"
+          alt="paw"
+          width="23"
+          height="24"
+        />ACHE SEU MELHOR AMIGO!<img
+          src="./Resources/paw-right.svg"
+          alt="paw"
+          width="23"
+          height="24"
+        />
+      </h2>
+      <p class="txt-size1regular">
+        Escolha entre um cachorrinho companheiro e alegre ou um gatinho fiel e
+        amoroso. Ganhará latidos ou ronronados que esquentam o coração
+      </p>
+      <ul class="index-find-your-pet-list">
+        <li>
+          <figure>
+            <img
+              src="Resources/find-your-dog.png"
+              alt="Cachorro"
+              width="350"
+              height="350"
+            />
+            <figcaption>
+              <a href="pets.html" class="main-button">CACHORRINHOS </a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img
+              src="Resources/find-your-cat.png"
+              alt="Gato"
+              width="350"
+              height="350"
+            />
+            <figcaption>
+              <a href="pets.html" class="main-button">GATINHOS </a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
     </section>
     <!--Creating the connection with the footer-->
     <div id="footer"></div>
-</body>
-
+  </body>
 </html>

@@ -1,101 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta name="description" content="Encontre seu novo amigo pet na casa de adoção.">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta
+      name="description"
+      content="Encontre seu novo amigo pet na casa de adoção."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pets - Casa de Adoção</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="jquery-3.7.1.min.js"></script>
     <script>
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
     </script>
-    <link rel="shortcut icon" href="./Resources/paw-left.svg" type="image/x-icon">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./Resources/paw-left.svg"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
+  <body>
     <!--Creating the connection with the header-->
     <div id="header"></div>
 
     <!--Creating a section "pets" -->
     <main class="bg-yellow2">
-        <section class="container find-your-pet">
-            <h1><img src="./Resources/paw-left.svg" alt="paw" width="23" height="24">Encontre seu novo amigo!<img
-                    src="./Resources/paw-right.svg" alt="paw" width="23" height="24"></h1>
-            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias
-                repellendus dolor ad eius
-                quisquam reiciendis beatae error quasi nobis adipisci hic architecto aliquam doloremque distinctio,
-                ducimus fugit,</p>
-        </section>
-        <section class="bg-yellow">
-            <form class="container filters-pet">
-                <select aria-label="Estado" name="" id="" class="borders txt-size1medium">
-                    <optgroup label="Estado">
-                        <option value="estado">Estado</option>
-                    </optgroup>
-                </select>
-                <select aria-label="Cidade" name="" id="" class="borders txt-size1medium">
-                    <optgroup label="Cidade">
-                        <option value="">Cidade</option>
-                    </optgroup>
-                </select>
-                <select aria-label="Tipo" name="" id="" class="borders txt-size1medium">
-                    <optgroup label="Tipo">
-                        <option value="" selected>Todos</option>
-                        <option value="">Gato</option>
-                        <option value="">Cachorro</option>
-                    </optgroup>
-                </select>
-                
-            </form>
-        </section>
+      <section class="container find-your-pet">
+        <h1>
+          <img
+            src="./Resources/paw-left.svg"
+            alt="paw"
+            width="23"
+            height="24"
+          />Encontre seu novo amigo!<img
+            src="./Resources/paw-right.svg"
+            alt="paw"
+            width="23"
+            height="24"
+          />
+        </h1>
+        <p class="txt-size2regular">
+          Aqui estão listados todos os bichinhos que precisam de um lar com
+          muito amor.
+        </p>
+      </section>
+      <section class="bg-yellow">
+        <form class="container filters-pet">
+          <select
+            aria-label="Estado"
+            name=""
+            id=""
+            class="borders txt-size1medium"
+          >
+            <optgroup label="Estado">
+              <option value="estado">Estado</option>
+            </optgroup>
+          </select>
+          <select
+            aria-label="Cidade"
+            name=""
+            id=""
+            class="borders txt-size1medium"
+          >
+            <optgroup label="Cidade">
+              <option value="">Cidade</option>
+            </optgroup>
+          </select>
+          <select
+            aria-label="Tipo"
+            name=""
+            id=""
+            class="borders txt-size1medium"
+          >
+            <optgroup label="Tipo">
+              <option value="" selected>Todos</option>
+              <option value="">Gato</option>
+              <option value="">Cachorro</option>
+            </optgroup>
+          </select>
+        </form>
+      </section>
     </main>
     <ul class="list-find-your-pet container">
-        <li class="block-list bg-yellow2 borders">
-            <img src="./Resources/photo-pet.png" alt="photo-pet" width="308" height="371">
-            <div>
-                <h2>NOME</h2>
-                <h3><img src="Resources/card.svg" alt="card" width="19" height="25">Idade, gênero</h3>
-            </div>
-            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
-                amet consectetur
-                adipisicing elit.</p>
-            <button class="main-button">Adotar</button>
-        </li>
-        <li class="block-list bg-yellow2 borders">
-            <img src="./Resources/photo-pet.png" alt="photo-pet" width="308" height="371">
-            <div>
-                <h2>NOME</h2>
-                <h3><img src="Resources/card.svg" alt="card" width="19" height="25">Idade, gênero</h3>
-            </div>
-            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
-                amet consectetur
-                adipisicing elit.</p>
-            <button class="main-button">Adotar</button>
-        </li>
-        <li class="block-list bg-yellow2 borders">
-            <img src="./Resources/photo-pet.png" alt="photo-pet" width="308" height="371">
-            <div>
-                <h2>NOME</h2>
-                <h3><img src="Resources/card.svg" alt="card" width="19" height="25">Idade, gênero</h3>
-            </div>
-            <p class="txt-size2regular">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
-                amet consectetur
-                adipisicing elit.</p>
-            <button class="main-button">Adotar</button>
-        </li>
+      <li class="block-list bg-yellow2 borders">
+        <img
+          src="./Resources/photo-pet1.png"
+          alt="photo-pet"
+          width="308"
+          height="371"
+        />
+        <div>
+          <h2>Tom</h2>
+          <h3>
+            <img src="Resources/card.svg" alt="card" width="19" height="25" />1
+            ano, macho
+          </h3>
+        </div>
+        <p class="txt-size2regular">
+          Adote este lindo e dócil gatinho e terá um amigo que encherá sua casa
+          de muito amor. Já está castrado e vacinado.
+        </p>
+        <button class="main-button">Adotar</button>
+      </li>
+      <li class="block-list bg-yellow2 borders">
+        <img
+          src="./Resources/photo-pet2.png"
+          alt="photo-pet"
+          width="308"
+          height="371"
+        />
+        <div>
+          <h2>Dolly</h2>
+          <h3>
+            <img src="Resources/card.svg" alt="card" width="19" height="25" />4
+            anos, fêmea
+          </h3>
+        </div>
+        <p class="txt-size2regular">
+          Esta cachorrinha é muito brincalhona e carinhosa, adotando-a terá uma
+          companhia ideal. Já está castrada e vacinada.
+        </p>
+        <button class="main-button">Adotar</button>
+      </li>
+      <li class="block-list bg-yellow2 borders">
+        <img
+          src="./Resources/photo-pet3.png"
+          alt="photo-pet"
+          width="308"
+          height="371"
+        />
+        <div>
+          <h2>Maya</h2>
+          <h3>
+            <img src="Resources/card.svg" alt="card" width="19" height="25" />3
+            anos, fêmea
+          </h3>
+        </div>
+        <p class="txt-size2regular">
+          Uma gatinha muito adorável que adora brincar, cheia de amor pra dar.
+          Adote e transforme a vida dela
+        </p>
+        <button class="main-button">Adotar</button>
+      </li>
     </ul>
     <!--Creating the connection with the footer-->
     <div id="footer"></div>
-</body>
-
+  </body>
 </html>
