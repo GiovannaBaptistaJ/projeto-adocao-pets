@@ -1,52 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta name="description" content="Registre-se na casa de adoção.">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="description" content="Registre-se na casa de adoção." />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro - Casa de Adoção</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
-        rel="stylesheet">
-    <script src="jquery-3.7.1.min.js"></script>
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/jquery-3.7.1.min.js"></script>
     <script>
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
     </script>
-    <link rel="shortcut icon" href="./Resources/paw-left.svg" type="image/x-icon">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./Resources/paw-left.svg"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
+  <body>
     <!--Creating the connection with the header-->
     <div id="header"></div>
 
     <!--Creating a section "register" -->
     <main class="register-content">
-        <div class="register-content-img">
+      <div class="register-content-img"></div>
+      <div class="register borders">
+        <div class="register-options">
+          <a href="login.html">
+            <h2 class="disabled">ENTRAR</h2>
+          </a>
+          <h2 class="selected">CADASTRE-SE</h2>
         </div>
-        <div class="register borders">
-            <div class="register-options">
-                <a href="login.html">
-                    <h2 class="disabled">ENTRAR</h2>
-                </a>
-                <h2 class="selected">CADASTRE-SE</h2>
-            </div>
-            <form action="">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Senha">
-                <button class="main-button">ENTRAR</button>
-            </form>
-        </div>
+        <form action="">
+          <input type="email" placeholder="E-mail" />
+          <input type="text" placeholder="Senha" />
+          <button class="main-button">ENTRAR</button>
+        </form>
+      </div>
     </main>
 
     <!--Creating the connection with the footer-->
     <div id="footer"></div>
-</body>
-
+  </body>
 </html>
