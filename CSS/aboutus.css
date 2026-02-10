@@ -1,207 +1,207 @@
 .introduction-about-us {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary6);
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary6);
 }
 
 .main-about-us {
-    padding: 85px 30px 45px 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  padding: 85px 30px 45px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .main-about-us h2 {
-    color: var(--primary6);
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  color: var(--primary6);
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .main-about-us p {
-    max-width: 80ch;
+  max-width: 80ch;
 }
 
 .bg-info-about-us {
-    box-shadow: inset 0px 95px var(--primary2);
+  box-shadow: inset 0px 95px var(--primary2);
 }
 
 .info-about-us {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin: 0px 25px;
-    padding: 25px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0px 25px;
+  padding: 25px;
 }
 
-
 .info-about-us li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px 25px;
-    color: var(--primary6);
-    padding: 20px 0px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px 25px;
+  color: var(--primary6);
+  padding: 20px 0px;
 }
 
 .bg-our-clients {
-    box-shadow: inset 0 40px var(--primary1), inset 0 -40px var(--primary1);
+  box-shadow:
+    inset 0 40px var(--primary1),
+    inset 0 -40px var(--primary1);
 }
 
 .our-clients {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin-top: 85px;
-    margin-bottom: 85px;
-    gap: 25px;
-    color: var(--primary6);
-    padding: 0px 25px;
-    
-    
-
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 85px;
+  margin-bottom: 85px;
+  gap: 25px;
+  color: var(--primary6);
+  padding: 0px 25px;
 }
 
-
 .block-our-client {
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 25px;
-
-
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
 }
 
 .our-clients-txts {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .block-our-client img {
-    display: inline;
-    padding-right: 10px;
+  display: inline;
+  padding-right: 10px;
 }
 
 .block-our-client p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .our-client-name {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
-
-
-
 .frequently-questions {
-    padding: 85px 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
+  padding: 85px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.frequently-questions h2 {
+  text-align: center;
 }
 
 .frequently-questions-blocks {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
-
 .frequently-questions-block {
-    background-color: var(--white);
-    gap: 10px;
-    padding: 20px;
-    text-align: left;
-
-
+  background-color: var(--white);
+  gap: 10px;
+  padding: 20px;
+  text-align: left;
 }
 
 .frequently-questions h2,
 .frequently-questions-block-question,
 .frequently-questions-block-answer {
-    color: var(--primary6);
-
+  color: var(--primary6);
 }
 
 .frequently-questions-block dt button {
-    background-color: var(--white);
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
 }
 
 .frequently-questions-block dt button::before {
-    content: "";
-    display: block;
-    position: relative;
-    background-image: url(../Resources/paw-left.svg);
-    width: 23px;
-    height: 24px;
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url(../Resources/paw-left.svg);
+  width: 23px;
+  height: 24px;
 }
 
 .frequently-questions-block dt button::after {
-    content: "";
-    display: block;
-    position: relative;
-    background-image: url(../Resources/arrow-down.svg);
-    width: 14px;
-    height: 6px;
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url(../Resources/arrow-up.svg);
+  width: 14px;
+  height: 6px;
+  transition: 0.5s;
+}
+
+.frequently-questions-block dt button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
 }
 
 .frequently-questions-block-question {
-    background-color: var(--primary2);
-    padding: 0;
-    grid-area: question;
-    text-align: left;
+  background-color: var(--primary2);
+  padding: 0;
+  grid-area: question;
+  text-align: left;
+  cursor: pointer;
 }
 
 .frequently-questions-block-answer {
-    padding-left: 33px;
-
+  padding-left: 33px;
+  padding-top: 20px;
+}
+.frequently-questions-block-answer {
+  display: none;
+}
+.frequently-questions-block-answer.active {
+  display: block;
 }
 
-
+.button-terms {
+  align-self: center;
+}
 
 @media (max-width: 1000px) {
-    .bg-our-clients {
-        box-shadow: initial;
-    }
+  .bg-our-clients {
+    box-shadow: initial;
+  }
 
-    .our-clients {
-        grid-template-columns: 1fr;
-        padding: 25px;
+  .our-clients {
+    grid-template-columns: 1fr;
+    padding: 25px;
+  }
 
-    }
+  .our-clients-txts {
+    order: -1;
+    padding-top: 85px;
+  }
 
-    .our-clients-txts {
-        order: -1;
-        padding-top: 85px;
-    }
-
-    .our-clients-img img {
-        justify-self: center;
-        max-width: 315px;
-        height: 394px;
-    }
-
-
+  .our-clients-img img {
+    justify-self: center;
+    max-width: 315px;
+    height: 394px;
+  }
 }
 
 @media (max-width: 480px) {
-    .introduction-about-us img {
-        width: 500px;
-        height: 118px;
-    }
+  .introduction-about-us img {
+    width: 500px;
+    height: 118px;
+  }
 }

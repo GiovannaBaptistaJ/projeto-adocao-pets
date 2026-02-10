@@ -1,50 +1,45 @@
 /* Setting up about us */
 .about-us {
-    padding: 85px 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    color: var(--primary6);
-
+  padding: 85px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: var(--primary6);
 }
 
 .about-us h2 {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
-
 
 .about-us-txts p {
-    padding: 5px 0px;
+  padding: 5px 0px;
 }
 
-
 .about-us ul {
-    display: flex;
-    gap: 20px;
+  display: flex;
+
+  gap: 20px;
 }
 
 .about-us ul li {
-    background-color: var(--primary2);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
+  background-color: var(--primary2);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .about-us ul li h3 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-
-
 @media (max-width: 700px) {
-    .about-us ul {
-        flex-direction: column;
-    }
+  .about-us ul {
+    flex-direction: column;
+  }
 }

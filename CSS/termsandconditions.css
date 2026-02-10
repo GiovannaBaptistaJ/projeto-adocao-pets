@@ -1,74 +1,69 @@
 /* Setting up terms and conditions */
 .terms-bg {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    color: var(--primary6);
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  color: var(--primary6);
 }
 
 .terms-bg-img {
-    background: url(/Resources/cat-terms-and-cond.png) no-repeat;
-    background-size: cover;
+  background: url(../Resources/cat-terms-and-cond.png) no-repeat;
+  background-size: cover;
 }
 
 .terms-and-cond {
-    padding: 85px 30px;
-
+  padding: 85px 30px;
 }
 
 .terms-and-cond h1 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .terms-and-cond-filter {
-    padding: 25px 0px;
+  padding: 25px 0px;
 }
 
 .terms-and-cond-filter button {
-    background: none;
-    cursor: pointer;
-    color: var(--primary6);
+  background: none;
+  cursor: pointer;
+  color: var(--primary6);
 }
 
 .actived-terms::after {
-    content: "";
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 2px;
-    background: var(--green);
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: var(--green);
 }
 
 .block-terms-txts {
-    background-color: var(--white);
-    padding: 25px;
+  background-color: var(--white);
+  padding: 25px;
 }
 
 .block-term {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
 }
 
 .block-term h2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 @media (max-width: 1000px) {
-    .terms-bg-img {
-        background: none;
-    }
+  .terms-bg-img {
+    background: none;
+  }
 
-    .terms-bg {
-        grid-template-columns: 1fr;
-
-    }
+  .terms-bg {
+    grid-template-columns: 1fr;
+  }
 }

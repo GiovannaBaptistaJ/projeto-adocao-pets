@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
     <script>
       $(function () {
         $("#header").load("header.html");
@@ -135,11 +135,16 @@
             <dt>
               <button
                 class="frequently-questions-block-question txt-size1medium"
+                aria-controls="question1"
+                aria-expanded="true"
               >
                 Quem pode adotar um pet?
               </button>
             </dt>
-            <dd class="frequently-questions-block-answer txt-size2regular">
+            <dd
+              id="question1"
+              class="frequently-questions-block-answer txt-size2regular active"
+            >
               Pessoas maiores de 18 anos, através de um contrato de adoção.
             </dd>
           </div>
@@ -147,28 +152,47 @@
             <dt>
               <button
                 class="frequently-questions-block-question txt-size1medium"
+                aria-controls="question2"
+                aria-expanded="false"
               >
                 Como divulgar um pet?
               </button>
             </dt>
-            <dd class="frequently-questions-block-answer txt-size2regular"></dd>
+            <dd
+              id="question2"
+              class="frequently-questions-block-answer txt-size2regular"
+            >
+              Basta criar uma conta no nosso site e preencher informações do seu
+              pet.
+            </dd>
           </div>
           <div class="frequently-questions-block borders">
             <dt>
               <button
                 class="frequently-questions-block-question txt-size1medium"
+                aria-controls="question3"
+                aria-expanded="false"
               >
                 Como criar uma conta?
               </button>
             </dt>
-            <dd class="frequently-questions-block-answer txt-size2regular"></dd>
+            <dd
+              id="question3"
+              class="frequently-questions-block-answer txt-size2regular"
+            >
+              Clique no botão verde no topo superior da página para criar sua
+              conta;
+            </dd>
           </div>
         </dl>
-        <a href="terms.html" class="main-button">TERMOS E CONDIÇÕES</a>
+        <a href="terms.html" class="main-button button-terms"
+          >TERMOS E CONDIÇÕES</a
+        >
       </div>
     </section>
 
     <!--Creating the connection with the footer-->
     <div id="footer"></div>
+    <script src="./js/scriptaboutus.js"></script>
   </body>
 </html>
